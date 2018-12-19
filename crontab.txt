@@ -1,0 +1,1 @@
+60 * * * * sh ~/Scripts/final-project/start.sh
