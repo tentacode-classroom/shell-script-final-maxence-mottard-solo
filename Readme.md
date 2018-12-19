@@ -1,14 +1,12 @@
 Tâche CRON de News
 ==================
 
-
 1.Objectifs
 -----------
 
-Création d'un script qui fait appelle l'api [NewsApi](https://newsapi.org) ; celle-ci retourne des articles venant de différentes sources.
-Le but serai d'appeler ce script afin d'alimenter un serveur web en articles.
+Création d'un script qui fait appelle l'API [NewsApi](https://newsapi.org). Cette API retourne des articles venant de différentes sources.
 
-
+Le but serait d'appeler ce script afin d'alimenter un serveur web en articles.
 
 2.Dépendances
 -------------
@@ -19,11 +17,10 @@ Installastion sur Mac OS:
 
     brew install jq
 
-
 3.Amélioration possible
 -----------------------
 
-Pour améliorer cette fonctionnalité, nous pourrions créer une tâche CRON qui execute ce script toutes les X minutes.
+Pour améliorer ce projet, nous pourrions créer une tâche CRON qui execute ce script toutes les X minutes.
 
 Exemple de tâche CRON qui lance le script toutes les 60 minutes :
 
