@@ -37,9 +37,6 @@ do
 	SLUG=`echo $TITLE | sed s/[^A-Za-z0-9]/-/g`
 	CONTENT=`echo $ARTICLE | jq '.content' | sed s/\"//g | sed s#/#_#g`
 
-	echo $TITLE
-	echo $CONTENT
-
 	if [ ! -f $DEST_DIR/$SLUG.html ]
 	then
 		TEMPLATE=`cat $DIR/template.html`
@@ -49,3 +46,5 @@ do
 		echo $TEMPLATE > $DEST_DIR/$SLUG.html
 	fi
 done
+
+echo "Vous avez finit de voler des données 😜"
