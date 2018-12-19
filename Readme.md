@@ -17,14 +17,14 @@ Installastion sur Mac OS:
 
     brew install jq
 
-4.Doc
+3.Doc
 -----
 
 Si on lance le script sans paramètres, les fichiers qui seront créés se placeront dans le dossier www dans le même répertoire que le script. Cependant si un chemin est passé en paramètre, les fichiers se plceront dans celui-ci.
 
 Les fichiers son créés uniquement si il n'existe déjà pas ; ainsi, le script ne va pas recréer inutilement les fichiers.
 
-3.Amélioration possible
+4.Amélioration possible
 -----------------------
 
 Pour améliorer ce projet, nous pourrions créer une tâche CRON qui execute ce script toutes les X minutes.
